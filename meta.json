@@ -2,13 +2,13 @@
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "mcvella:copy-cloud-config",
   "visibility": "public",
-  "url": "",
+  "url": "https://github.com/mcvella/viam-copy-cloud-config",
   "description": "Modular generic service: copy-cloud-config",
   "models": [
     {
       "api": "rdk:service:generic",
       "model": "mcvella:service:copy-cloud-config",
-      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "short_description": "Copy existing cloud config to a running Viam machine",
       "markdown_link": "README.md#model-mcvellacopy-cloud-configcopy-cloud-config"
     }
   ],
