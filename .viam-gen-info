@@ -1,0 +1,12 @@
+{
+  "module_name": "copy-cloud-config",
+  "namespace": "mcvella",
+  "language": "python",
+  "resource_type": "service",
+  "resource_subtype": "generic",
+  "model_name": "copy-cloud-config",
+  "enable_cloud_build": false,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-03-24T19:03:06.709324Z"
+}

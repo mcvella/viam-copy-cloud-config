@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "mcvella:copy-cloud-config",
+  "visibility": "public",
+  "url": "",
+  "description": "Modular generic service: copy-cloud-config",
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "mcvella:service:copy-cloud-config",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-mcvellacopy-cloud-configcopy-cloud-config"
+    }
+  ],
+  "applications": null,
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}
